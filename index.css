@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.columns {
+  border-radius: 10px;
+  background: rgb(228, 228, 228);
+  margin: 50px;
+}
+.columns img {
+  width: 100%;
+  background-size: cover;
+}
+#artist_name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
